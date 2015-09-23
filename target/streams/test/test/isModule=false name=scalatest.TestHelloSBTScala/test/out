@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0m[32mTestHelloSBTScala:[0m[0m
+[0m[[0minfo[0m] [0m[32m- Very Basic : Check of equality 1==1[0m[0m
+[0m[[0minfo[0m] [0m[32m- Another Very Basic : Check of equality HelloWorld[0m[0m
+[0m[[0minfo[0m] [0m[32m- test ifelse1[0m[0m
+[0m[[0minfo[0m] [0m[32m- test ifelse2[0m[0m
+[0m[[0minfo[0m] [0m[32m- test ifelse3[0m[0m
+[0m[[0minfo[0m] [0m[32m- test ifelse4[0m[0m
+[0m[[0minfo[0m] [0m[32m- test else4[0m[0m
+[0m[[0minfo[0m] [0m[32m- test match1[0m[0m
+[0m[[0minfo[0m] [0m[32m- test match2[0m[0m
+[0m[[0minfo[0m] [0m[32m- test match3[0m[0m
+[0m[[0minfo[0m] [0m[32m- test match4[0m[0m
+[0m[[0minfo[0m] [0m[32m- test try/catch1[0m[0m
+[0m[[0minfo[0m] [0m[32m- test try/catch2[0m[0m
+[0m[[0minfo[0m] [0m[32m- client[0m[0m
+[0m[[0minfo[0m] [0m[32m- client1[0m[0m

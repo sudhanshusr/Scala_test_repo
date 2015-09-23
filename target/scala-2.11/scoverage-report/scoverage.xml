@@ -1,0 +1,163 @@
+<scoverage 
+statement-count="38" statements-invoked="33" statement-rate="86.84" branch-rate="81.82" version="1.0" timestamp="1443013140890">
+    <packages>
+        <package name="com.main.scala" statement-count="38" statements-invoked="33" statement-rate="86.84">
+            <classes>
+                <class 
+                name="Client" filename="com\main\scala\Client.scala" statement-count="14" statements-invoked="9" statement-rate="64.29" branch-rate="0.00">
+                    <methods>
+                        <method 
+                        name="com.main.scala/Client/main" statement-count="6" statements-invoked="6" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="main" start="1016" end="1040" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="main" start="1048" end="1087" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="main" start="967" end="1001" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="main" start="1056" end="1086" line="50" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="main" start="1008" end="1041" line="49" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="main" start="975" end="1000" line="48" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.main.scala/Client/&lt;none&gt;" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="&lt;none&gt;" start="805" end="817" line="40" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="&lt;none&gt;" start="773" end="785" line="37" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="&lt;none&gt;" start="840" end="852" line="43" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.main.scala/Client/test" statement-count="5" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
+                            <statements>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="test" start="902" end="913" line="45" branch="true" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="test" start="880" end="896" line="45" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="test" start="902" end="913" line="45" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="test" start="874" end="878" line="45" branch="false" invocation-count="0" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Client" class-type="Object" top-level-class="Client" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="test" start="880" end="896" line="45" branch="true" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+                <class 
+                name="Simple" filename="com\main\scala\Client.scala" statement-count="24" statements-invoked="24" statement-rate="100.00" branch-rate="100.00">
+                    <methods>
+                        <method 
+                        name="com.main.scala/Simple/devideNums" statement-count="3" statements-invoked="3" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="devideNums" start="494" end="506" line="19" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="devideNums" start="414" end="448" line="14" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="devideNums" start="427" end="434" line="15" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.main.scala/Simple/matchNationality" statement-count="4" statements-invoked="4" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="matchNationality" start="681" end="688" line="27" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="matchNationality" start="649" end="657" line="26" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="matchNationality" start="618" end="625" line="25" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="matchNationality" start="712" end="719" line="28" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="com.main.scala/Simple/getCurrency" statement-count="17" statements-invoked="17" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="154" end="348" line="7" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="251" end="258" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="309" end="316" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="136" end="143" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="193" end="201" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="327" end="348" line="10" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="327" end="348" line="10" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="158" end="191" line="7" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="216" end="249" line="8" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="212" end="348" line="8" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="273" end="307" line="9" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="98" end="134" line="6" branch="false" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="251" end="258" line="8" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="136" end="143" line="6" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="309" end="316" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="269" end="348" line="9" branch="true" invocation-count="1" ignored="false">
+</statement>
+                                <statement 
+                                package="com.main.scala" class="Simple" class-type="Class" top-level-class="Simple" source="D:\scala soft\scala test\src\main\scala\com\main\scala\Client.scala" method="getCurrency" start="193" end="201" line="7" branch="true" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                    </methods>
+</class>
+            </classes>
+        </package>
+    </packages>
+</scoverage>

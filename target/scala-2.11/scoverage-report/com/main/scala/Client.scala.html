@@ -1,0 +1,912 @@
+<html>
+      <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title id="title">
+          com\main\scala\Client.scala.html
+        </title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/css/theme.default.min.css" type="text/css"/><script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.20.1/js/jquery.tablesorter.min.js"></script><link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" type="text/css"/><script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script><script type="text/javascript">
+        $(document).ready(function() {$(".tablesorter").tablesorter();});
+      </script>
+        <style>
+          table.codegrid { font-family: monospace; font-size: 12px; width: auto!important; }table.statementlist { width: auto!important; font-size: 13px; } table.codegrid td { padding: 0!important; border: 0!important } table td.linenumber { width: 40px!important; } 
+        </style>
+      </head>
+      <body style="font-family: monospace;">
+        <ul class="nav nav-tabs">
+          <li>
+            <a href="#codegrid" data-toggle="tab">Codegrid</a>
+          </li>
+          <li>
+            <a href="#statementlist" data-toggle="tab">Statement List</a>
+          </li>
+        </ul>
+        <div class="tab-content">
+          <div class="tab-pane active" id="codegrid">
+            <pre style='font-size: 12pt; font-family: courier;'>1 <span style=''>package com.main.scala
+</span>2 <span style=''>
+</span>3 <span style=''>class Simple() {
+</span>4 <span style=''>
+</span>5 <span style=''>  def getCurrency(nationality: String) = {
+</span>6 <span style=''>    if (</span><span style='background: #AEF1AE'>nationality.toLowerCase() == "india"</span><span style=''>) </span><span style='background: #AEF1AE'>"Rupee"</span><span style=''>
+</span>7 <span style=''>    else </span><span style='background: #AEF1AE'>if (nationality.toLowerCase() == "us") "Dollar"
+</span>8 <span style=''></span><span style='background: #AEF1AE'>    else if (nationality.toLowerCase() == "uk") "Pound"
+</span>9 <span style=''></span><span style='background: #AEF1AE'>    else if (nationality.toLowerCase() == "uae") "Dinar"
+</span>10 <span style=''></span><span style='background: #AEF1AE'>    else "Invalid nationality"</span><span style=''>
+</span>11 <span style=''>  }
+</span>12 <span style=''>
+</span>13 <span style=''>  def devideNums(n1: Int, n2: Int) = {
+</span>14 <span style=''>    try {
+</span>15 <span style=''>      </span><span style='background: #AEF1AE'>val result = n1 / n2
+</span>16 <span style=''></span><span style='background: #AEF1AE'>      result</span><span style=''>
+</span>17 <span style=''>
+</span>18 <span style=''>    } catch {
+</span>19 <span style=''>      case e: Exception => </span><span style='background: #AEF1AE'>e.getMessage</span><span style=''>
+</span>20 <span style=''>    }
+</span>21 <span style=''>  }
+</span>22 <span style=''>
+</span>23 <span style=''>  def matchNationality(nationality: String) = {
+</span>24 <span style=''>    nationality match {
+</span>25 <span style=''>      case "India" => </span><span style='background: #AEF1AE'>"Rupee"</span><span style=''>
+</span>26 <span style=''>      case "US"    => </span><span style='background: #AEF1AE'>"Dollar"</span><span style=''>
+</span>27 <span style=''>      case "UK"    => </span><span style='background: #AEF1AE'>"Pound"</span><span style=''>
+</span>28 <span style=''>      case "UAE"   => </span><span style='background: #AEF1AE'>"Dinar"</span><span style=''>
+</span>29 <span style=''>
+</span>30 <span style=''>    }
+</span>31 <span style=''>  }
+</span>32 <span style=''>
+</span>33 <span style=''>}
+</span>34 <span style=''>
+</span>35 <span style=''>object Client{
+</span>36 <span style=''>
+</span>37 <span style=''>  val obj1 = </span><span style='background: #AEF1AE'>new Simple()</span><span style=''>
+</span>38 <span style=''> 
+</span>39 <span style=''>
+</span>40 <span style=''>  val obj2 = </span><span style='background: #AEF1AE'>new Simple()</span><span style=''>
+</span>41 <span style=''>  
+</span>42 <span style=''>  
+</span>43 <span style=''>  val obj3 = </span><span style='background: #AEF1AE'>new Simple()</span><span style=''>
+</span>44 <span style=''>  
+</span>45 <span style=''> def test = {if(</span><span style='background: #F0ADAD'>1==1</span><span style=''>) </span><span style='background: #F0ADAD'>println("equal")</span><span style=''> else </span><span style='background: #F0ADAD'>"not equal"</span><span style=''>}
+</span>46 <span style=''>  
+</span>47 <span style=''>  def main(args: Array[String]): Unit = {
+     </span><span style='background: #AEF1AE'>println(obj1.getCurrency("India"))</span><span style=''>
+</span>48 <span style=''>     </span><span style='background: #AEF1AE'>println(obj1.devideNums(100, 20))</span><span style=''>
+</span>49 <span style=''>     </span><span style='background: #AEF1AE'>println(obj1.matchNationality("India"))</span><span style=''>
+  }
+</span>50 <span style=''>}
+</span></pre>
+          </div>
+          <div class="tab-pane" id="statementlist">
+            <table cellspacing="0" cellpadding="0" class="table statementlist">
+      <tr>
+        <th>Line</th>
+        <th>Stmt Id</th>
+        <th>Pos</th>
+        <th>Tree</th>
+        <th>Symbol</th>
+        <th>Code</th>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          2
+        </td>
+        <td>
+          136
+          -
+          143
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Rupee&quot;
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          1
+        </td>
+        <td>
+          98
+          -
+          134
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          nationality.toLowerCase().==(&quot;india&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          6
+        </td>
+        <td>
+          3
+        </td>
+        <td>
+          136
+          -
+          143
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Rupee&quot;
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          17
+        </td>
+        <td>
+          154
+          -
+          348
+        </td>
+        <td>
+          If
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          if (nationality.toLowerCase().==(&quot;us&quot;))
+  &quot;Dollar&quot;
+else
+  if (nationality.toLowerCase().==(&quot;uk&quot;))
+    &quot;Pound&quot;
+  else
+    if (nationality.toLowerCase().==(&quot;uae&quot;))
+      &quot;Dinar&quot;
+    else
+      &quot;Invalid nationality&quot;
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          5
+        </td>
+        <td>
+          193
+          -
+          201
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Dollar&quot;
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          4
+        </td>
+        <td>
+          158
+          -
+          191
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          nationality.toLowerCase().==(&quot;us&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          7
+        </td>
+        <td>
+          6
+        </td>
+        <td>
+          193
+          -
+          201
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Dollar&quot;
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          8
+        </td>
+        <td>
+          251
+          -
+          258
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Pound&quot;
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          7
+        </td>
+        <td>
+          216
+          -
+          249
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          nationality.toLowerCase().==(&quot;uk&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          16
+        </td>
+        <td>
+          212
+          -
+          348
+        </td>
+        <td>
+          If
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          if (nationality.toLowerCase().==(&quot;uk&quot;))
+  &quot;Pound&quot;
+else
+  if (nationality.toLowerCase().==(&quot;uae&quot;))
+    &quot;Dinar&quot;
+  else
+    &quot;Invalid nationality&quot;
+        </td>
+      </tr><tr>
+        <td>
+          8
+        </td>
+        <td>
+          9
+        </td>
+        <td>
+          251
+          -
+          258
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Pound&quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          11
+        </td>
+        <td>
+          309
+          -
+          316
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Dinar&quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          10
+        </td>
+        <td>
+          273
+          -
+          307
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Object.==
+        </td>
+        <td style="background: #AEF1AE">
+          nationality.toLowerCase().==(&quot;uae&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          12
+        </td>
+        <td>
+          309
+          -
+          316
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Dinar&quot;
+        </td>
+      </tr><tr>
+        <td>
+          9
+        </td>
+        <td>
+          15
+        </td>
+        <td>
+          269
+          -
+          348
+        </td>
+        <td>
+          If
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          if (nationality.toLowerCase().==(&quot;uae&quot;))
+  &quot;Dinar&quot;
+else
+  &quot;Invalid nationality&quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          14
+        </td>
+        <td>
+          327
+          -
+          348
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Invalid nationality&quot;
+        </td>
+      </tr><tr>
+        <td>
+          10
+        </td>
+        <td>
+          13
+        </td>
+        <td>
+          327
+          -
+          348
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Invalid nationality&quot;
+        </td>
+      </tr><tr>
+        <td>
+          14
+        </td>
+        <td>
+          19
+        </td>
+        <td>
+          414
+          -
+          448
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          {
+  val result: Int = n1./(n2);
+  result
+}
+        </td>
+      </tr><tr>
+        <td>
+          15
+        </td>
+        <td>
+          18
+        </td>
+        <td>
+          427
+          -
+          434
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Int./
+        </td>
+        <td style="background: #AEF1AE">
+          n1./(n2)
+        </td>
+      </tr><tr>
+        <td>
+          19
+        </td>
+        <td>
+          20
+        </td>
+        <td>
+          494
+          -
+          506
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          java.lang.Throwable.getMessage
+        </td>
+        <td style="background: #AEF1AE">
+          e.getMessage()
+        </td>
+      </tr><tr>
+        <td>
+          25
+        </td>
+        <td>
+          21
+        </td>
+        <td>
+          618
+          -
+          625
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Rupee&quot;
+        </td>
+      </tr><tr>
+        <td>
+          26
+        </td>
+        <td>
+          22
+        </td>
+        <td>
+          649
+          -
+          657
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Dollar&quot;
+        </td>
+      </tr><tr>
+        <td>
+          27
+        </td>
+        <td>
+          23
+        </td>
+        <td>
+          681
+          -
+          688
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Pound&quot;
+        </td>
+      </tr><tr>
+        <td>
+          28
+        </td>
+        <td>
+          24
+        </td>
+        <td>
+          712
+          -
+          719
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          &quot;Dinar&quot;
+        </td>
+      </tr><tr>
+        <td>
+          37
+        </td>
+        <td>
+          25
+        </td>
+        <td>
+          773
+          -
+          785
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.main.scala.Simple.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new Simple()
+        </td>
+      </tr><tr>
+        <td>
+          40
+        </td>
+        <td>
+          26
+        </td>
+        <td>
+          805
+          -
+          817
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.main.scala.Simple.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new Simple()
+        </td>
+      </tr><tr>
+        <td>
+          43
+        </td>
+        <td>
+          27
+        </td>
+        <td>
+          840
+          -
+          852
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.main.scala.Simple.&lt;init&gt;
+        </td>
+        <td style="background: #AEF1AE">
+          new Simple()
+        </td>
+      </tr><tr>
+        <td>
+          45
+        </td>
+        <td>
+          32
+        </td>
+        <td>
+          902
+          -
+          913
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;not equal&quot;
+        </td>
+      </tr><tr>
+        <td>
+          45
+        </td>
+        <td>
+          29
+        </td>
+        <td>
+          880
+          -
+          896
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Predef.println
+        </td>
+        <td style="background: #F0ADAD">
+          scala.this.Predef.println(&quot;equal&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          45
+        </td>
+        <td>
+          31
+        </td>
+        <td>
+          902
+          -
+          913
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          &quot;not equal&quot;
+        </td>
+      </tr><tr>
+        <td>
+          45
+        </td>
+        <td>
+          28
+        </td>
+        <td>
+          874
+          -
+          878
+        </td>
+        <td>
+          Literal
+        </td>
+        <td>
+          &lt;nosymbol&gt;
+        </td>
+        <td style="background: #F0ADAD">
+          true
+        </td>
+      </tr><tr>
+        <td>
+          45
+        </td>
+        <td>
+          30
+        </td>
+        <td>
+          880
+          -
+          896
+        </td>
+        <td>
+          Block
+        </td>
+        <td>
+          scala.Predef.println
+        </td>
+        <td style="background: #F0ADAD">
+          scala.this.Predef.println(&quot;equal&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          48
+        </td>
+        <td>
+          34
+        </td>
+        <td>
+          967
+          -
+          1001
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Predef.println
+        </td>
+        <td style="background: #AEF1AE">
+          scala.this.Predef.println(Client.this.obj1.getCurrency(&quot;India&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          48
+        </td>
+        <td>
+          33
+        </td>
+        <td>
+          975
+          -
+          1000
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.main.scala.Simple.getCurrency
+        </td>
+        <td style="background: #AEF1AE">
+          Client.this.obj1.getCurrency(&quot;India&quot;)
+        </td>
+      </tr><tr>
+        <td>
+          49
+        </td>
+        <td>
+          35
+        </td>
+        <td>
+          1016
+          -
+          1040
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.main.scala.Simple.devideNums
+        </td>
+        <td style="background: #AEF1AE">
+          Client.this.obj1.devideNums(100, 20)
+        </td>
+      </tr><tr>
+        <td>
+          49
+        </td>
+        <td>
+          36
+        </td>
+        <td>
+          1008
+          -
+          1041
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Predef.println
+        </td>
+        <td style="background: #AEF1AE">
+          scala.this.Predef.println(Client.this.obj1.devideNums(100, 20))
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          38
+        </td>
+        <td>
+          1048
+          -
+          1087
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          scala.Predef.println
+        </td>
+        <td style="background: #AEF1AE">
+          scala.this.Predef.println(Client.this.obj1.matchNationality(&quot;India&quot;))
+        </td>
+      </tr><tr>
+        <td>
+          50
+        </td>
+        <td>
+          37
+        </td>
+        <td>
+          1056
+          -
+          1086
+        </td>
+        <td>
+          Apply
+        </td>
+        <td>
+          com.main.scala.Simple.matchNationality
+        </td>
+        <td style="background: #AEF1AE">
+          Client.this.obj1.matchNationality(&quot;India&quot;)
+        </td>
+      </tr>
+    </table>
+          </div>
+        </div>
+      </body>
+    </html>

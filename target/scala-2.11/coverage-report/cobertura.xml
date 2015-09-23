@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<!DOCTYPE coverage SYSTEM "https://raw.githubusercontent.com/cobertura/cobertura/master/cobertura/src/site/htdocs/xml/coverage-04.dtd">
+<coverage 
+line-rate="0.87" lines-covered="38" lines-valid="33" branches-covered="11" branches-valid="9" branch-rate="0.82" complexity="0" version="1.0" timestamp="1443013140875">
+    <sources>
+        <source>--source</source>
+        <source>D:/scala soft/scala test/src/main/scala-2.11</source>
+        <source>D:/scala soft/scala test/src/main/scala</source>
+        <source>D:/scala soft/scala test/src/main/java</source>
+    </sources>
+    <packages>
+        <package name="com.main.scala" line-rate="0.87" branch-rate="0.82" complexity="0">
+            <classes>
+                <class name="Client" filename="com/main/scala/Client.scala" line-rate="0.64" branch-rate="0.00" complexity="0">
+                    <methods>
+                        <method name="com.main.scala/Client/main" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="49" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="48" hits="1" branch="false"/>
+                                <line number="50" hits="1" branch="false"/>
+                                <line number="49" hits="1" branch="false"/>
+                                <line number="48" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/Client/&lt;none&gt;" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="40" hits="1" branch="false"/>
+                                <line number="37" hits="1" branch="false"/>
+                                <line number="43" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/Client/test" signature="()V" line-rate="0.00" branch-rate="0.00">
+                            <lines>
+                                <line number="45" hits="0" branch="false"/>
+                                <line number="45" hits="0" branch="false"/>
+                                <line number="45" hits="0" branch="false"/>
+                                <line number="45" hits="0" branch="false"/>
+                                <line number="45" hits="0" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="45" hits="0" branch="false"/>
+                        <line number="49" hits="1" branch="false"/>
+                        <line number="40" hits="1" branch="false"/>
+                        <line number="45" hits="0" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="45" hits="0" branch="false"/>
+                        <line number="48" hits="1" branch="false"/>
+                        <line number="37" hits="1" branch="false"/>
+                        <line number="50" hits="1" branch="false"/>
+                        <line number="45" hits="0" branch="false"/>
+                        <line number="43" hits="1" branch="false"/>
+                        <line number="49" hits="1" branch="false"/>
+                        <line number="45" hits="0" branch="false"/>
+                        <line number="48" hits="1" branch="false"/>
+                    </lines>
+                </class>
+                <class name="Simple" filename="com/main/scala/Client.scala" line-rate="1.00" branch-rate="1.00" complexity="0">
+                    <methods>
+                        <method name="com.main.scala/Simple/devideNums" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="19" hits="1" branch="false"/>
+                                <line number="14" hits="1" branch="false"/>
+                                <line number="15" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/Simple/matchNationality" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="27" hits="1" branch="false"/>
+                                <line number="26" hits="1" branch="false"/>
+                                <line number="25" hits="1" branch="false"/>
+                                <line number="28" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                        <method name="com.main.scala/Simple/getCurrency" signature="()V" line-rate="1.00" branch-rate="1.00">
+                            <lines>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="10" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="8" hits="1" branch="false"/>
+                                <line number="6" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="9" hits="1" branch="false"/>
+                                <line number="7" hits="1" branch="false"/>
+                            </lines>
+                        </method>
+                    </methods>
+                    <lines>
+                        <line number="27" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="19" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="10" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                        <line number="26" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="14" hits="1" branch="false"/>
+                        <line number="15" hits="1" branch="false"/>
+                        <line number="8" hits="1" branch="false"/>
+                        <line number="25" hits="1" branch="false"/>
+                        <line number="6" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="9" hits="1" branch="false"/>
+                        <line number="28" hits="1" branch="false"/>
+                        <line number="7" hits="1" branch="false"/>
+                    </lines>
+                </class>
+            </classes>
+        </package>
+    </packages>
+</coverage>
