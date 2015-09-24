@@ -7,7 +7,7 @@
 		revision="0.1.0"
 		conf="findbugs"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, jacoco, findbugs"
-		date="20150923182853"/>
+		date="20150924152603"/>
 	<dependencies>
 		<module organisation="com.google.code.findbugs" name="jsr305">
 			<revision name="3.0.0" status="release" pubdate="20140710172548" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://findbugs.sourceforge.net/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, master" position="9">

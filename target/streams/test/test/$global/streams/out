@@ -1,7 +1,7 @@
-[0m[[0mdebug[0m] [0mRunning TaskDef(com.test.java.TestHelloSBTJava, com.novocode.junit.JUnitFingerprint@7be8d8b, false, [SuiteSelector])[0m
-[0m[[0mdebug[0m] [0mRunning TaskDef(scalatest.TestHelloSBTScala, org.scalatest.tools.Framework$$anon$1@2e3b8a00, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(com.test.java.TestHelloSBTJava, com.novocode.junit.JUnitFingerprint@390842dc, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(scalatest.TestHelloSBTScala, org.scalatest.tools.Framework$$anon$1@31384074, false, [SuiteSelector])[0m
 [0m[[0minfo[0m] [0mScalaTest[0m
-[0m[[0minfo[0m] [0m[36mRun completed in 344 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 349 milliseconds.[0m[0m
 [0m[[0minfo[0m] [0m[36mTotal number of tests run: 15[0m[0m
 [0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
 [0m[[0minfo[0m] [0m[36mTests: succeeded 15, failed 0, canceled 0, ignored 0, pending 0[0m[0m

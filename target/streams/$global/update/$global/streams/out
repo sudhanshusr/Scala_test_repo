@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for com.cybage.hellosbt#scala_test_plugin_created_2.11;0.1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies com.cybage.hellosbt#scala_test_plugin_created_2.11;0.1.0->org.scala-lang#scala-library;2.11.6 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.11.6 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7be9d87[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@7c4f09b7[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.11.6[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.11.6 in sbt-chain[0m
 [0m[[0mdebug[0m] [0m	[2.11.6] org.scala-lang#scala-library;2.11.6[0m
@@ -3212,7 +3212,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.ow2.asm#asm-debug-all;5.0.2!asm-debug-all.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-lang#commons-lang;2.6!commons-lang.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] xml-apis#xml-apis;1.0.b2!xml-apis.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 828ms :: artifacts dl 31ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 903ms :: artifacts dl 38ms[0m
 [0m[[0mdebug[0m] [0m	report for com.cybage.hellosbt#scala_test_plugin_created_2.11;0.1.0 compile produced in D:\scala soft\scala test\target\resolution-cache\reports\com.cybage.hellosbt-scala_test_plugin_created_2.11-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.cybage.hellosbt#scala_test_plugin_created_2.11;0.1.0 runtime produced in D:\scala soft\scala test\target\resolution-cache\reports\com.cybage.hellosbt-scala_test_plugin_created_2.11-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.cybage.hellosbt#scala_test_plugin_created_2.11;0.1.0 test produced in D:\scala soft\scala test\target\resolution-cache\reports\com.cybage.hellosbt-scala_test_plugin_created_2.11-test.xml[0m
@@ -3228,5 +3228,5 @@
 [0m[[0mdebug[0m] [0m	report for com.cybage.hellosbt#scala_test_plugin_created_2.11;0.1.0 scala-tool produced in D:\scala soft\scala test\target\resolution-cache\reports\com.cybage.hellosbt-scala_test_plugin_created_2.11-scala-tool.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.cybage.hellosbt#scala_test_plugin_created_2.11;0.1.0 jacoco produced in D:\scala soft\scala test\target\resolution-cache\reports\com.cybage.hellosbt-scala_test_plugin_created_2.11-jacoco.xml[0m
 [0m[[0mdebug[0m] [0m	report for com.cybage.hellosbt#scala_test_plugin_created_2.11;0.1.0 findbugs produced in D:\scala soft\scala test\target\resolution-cache\reports\com.cybage.hellosbt-scala_test_plugin_created_2.11-findbugs.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (828ms resolve - 31ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (903ms resolve - 38ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

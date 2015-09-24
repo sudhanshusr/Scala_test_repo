@@ -39,3 +39,7 @@ test
 clean
 compile
 test
+eclipse
+clean
+compile
+test

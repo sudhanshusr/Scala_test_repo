@@ -2,7 +2,7 @@ package scalatest
 import org.scalatest.FunSuite
 import com.main.scala.Simple
 import scala.util.control.Exception
-import com.main.scala.Client
+//import com.main.scala.Client
 class TestHelloSBTScala extends FunSuite {
   
   var obj = new Simple()
@@ -29,7 +29,7 @@ class TestHelloSBTScala extends FunSuite {
   test("test try/catch1"){assertResult(obj.devideNums(100, 20))(5)}
   test("test try/catch2"){assertResult(obj.devideNums(100, 0))("/ by zero")}
   
-  test("client"){assert(Client.obj1.getCurrency("India") == "Rupee")}
-  test("client1"){Client.main(Array("a","b"))}
+  test("client"){assert(com.main.scala.Client.obj1.getCurrency("India") == "Rupee")}
+  test("client1"){com.main.scala.Client.main(Array("a","b"))}
 
 }
