@@ -41,9 +41,7 @@ object Client{
   
   
   val obj3 = new Simple()
-  
- def test = {if(1==1) println("equal") else "not equal"}
-  
+
   def main(args: Array[String]): Unit = {
      println(obj1.getCurrency("India"))
      println(obj1.devideNums(100, 20))
